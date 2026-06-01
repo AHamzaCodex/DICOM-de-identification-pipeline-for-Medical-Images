@@ -7,11 +7,6 @@ It has the following 3 components:
 2 - Stanford AIMI NER model to classify detected text as PHI or clinical label (along with regex-defined rules and a custom list)
 3 - MONAI to wrap the full pipeline as a reusable medical imaging transform
 
-## Data Source
-[The Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/)  
-Collection: TCGA-LUAD (Lung Adenocarcinoma CT scans)  
-Licence: Creative Commons Attribution 3.0 (CC BY 3.0)  
-No account or API key required.
 
 ## Tags
 dicom  medical-imaging  de-identification  phi  hipaa  monai  pytorch  easyocr  clinical-ai  healthcare-ai  privacy  python
