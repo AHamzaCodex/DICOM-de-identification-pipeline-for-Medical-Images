@@ -8,10 +8,11 @@ It has the following 3 components:
 3 - MONAI to wrap the full pipeline as a reusable medical imaging transform
 
 ## Data Source
-[The Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/)  
-Collection: TCGA-LUAD (Lung Adenocarcinoma CT scans)  
-Licence: Creative Commons Attribution 3.0 (CC BY 3.0)  
-No account or API key required.
+I tried and played with publicly available TCIA data collections, LUAD and Prostate-MRI-US-Biopsy (PHI detection was negligible because per my reading, they come pre-anonymized, but metadata scrubbing was successful, and then made a custom synthetic data set of 15 DICOMs only (script included). Lastly, I also used data from the MIDI-B Validation set [1] (only partial due to limited storage).
 
 ## Tags
 dicom  medical-imaging  de-identification  phi  hipaa  monai  pytorch  easyocr  clinical-ai  healthcare-ai  privacy  python
+
+
+References: 
+1 - Rutherford, M. W., Nolan, T., Pei, L., Wagner, U., Pan, Q., Farmer, P., Smith, K., Kopchick, B., Laura Opsahl-Ong, Sutton, G., Clunie, D. A., Farahani, K., & Prior, F. (2025). Data in Support of the MIDI-B Challenge (MIDI-B-Synthetic-Validation, MIDI-B-Curated-Validation, MIDI-B-Synthetic-Test, MIDI-B-Curated-Test) (Version 1) [Data set]. The Cancer Imaging Archive. https://doi.org/10.7937/cf2p-aw56
